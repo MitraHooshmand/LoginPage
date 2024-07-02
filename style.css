@@ -32,7 +32,8 @@ body {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  box-shadow: 6px 5px 12px -1px rgba(158, 188, 193, 0.68);
+  /* box-shadow: 6px 5px 12px -1px rgba(158, 188, 193, 0.68); */
+  filter: drop-shadow( 5px 4px 5px gray);
   margin: 0 auto;
 }
 
