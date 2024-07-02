@@ -59,12 +59,13 @@ h2 {
   background: none;
   padding: 20px;
   font-size: 14px;
+  outline: none;
 }
 
 .username,
 .password {
   margin-bottom: 15px;
-  box-shadow: 6px 5px 12px rgba(158, 188, 193, 0.68), -6px -5px 12px #fff;
+  box-shadow:  -6px -5px 12px #fff,6px 5px 12px rgba(158, 188, 193, 0.68);
   border-radius: 12px;
 }
 
@@ -81,10 +82,12 @@ button {
   font-weight: 600;
   font-size: 20px;
   box-shadow: 10px 8px 11px rgba(158, 188, 193, 0.68), -17px -14px 20px #fff;
+  transition: all 0.2s ease-in;
 }
 
 button:hover {
   background-color: #8abdec;
+  letter-spacing: 2px;
 }
 
 p {
